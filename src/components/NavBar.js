@@ -13,12 +13,12 @@ import InfoIcon from '@mui/icons-material/Info';
 const navTabs = [
   {route: "/Music",
   icon: <LibraryMusicIcon />,
-  label: "Music",
+  label: "MUSIC",
   flag: true,
   },
   {route: "/Contact",
   icon: <MarkEmailUnreadIcon />,
-  label: "Contact",
+  label: "CONTACT",
   flag: true,
   },
   {
@@ -29,19 +29,15 @@ const navTabs = [
     },
   {route: "/Shows",
   icon: <DateRangeIcon />,
-  label: "Shows",
+  label: "SHOWS",
   flag: true,
   },
   {route: "/Merch",
   icon: <LocalMallIcon />,
-  label: "Merch",
+  label: "MERCH",
   flag: true,
-  },
-  {route: "/About",
-  icon: <InfoIcon />,
-  label: "About",
-  flag: true,
-}]
+  }
+]
 
 const Navbar = () => {
   return (
