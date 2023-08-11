@@ -1,14 +1,19 @@
+import React from 'react';
+import "../index.css"
+import Concert from '../assets/SANDRO CLOSE R_Trim.mp4';
 
-import React from "react";
  
 const Contact = () => {
     return (
-        <div>
-            <h1>
-                How to contact Sandman here
-            </h1>
+        <div className="main">
+          <video src={Concert} autoPlay loop muted />
+          <div className='container'>
+          <div className="content">
+            
+            </div>
+          </div>
         </div>
-    );
-};
+      );
+    };
  
 export default Contact;

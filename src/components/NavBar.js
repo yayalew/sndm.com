@@ -2,7 +2,7 @@ import React from "react";
 import { Nav, NavLink}  from 'react-router-dom';
 import "./NavBar.css";
 
-import Sandman from '../assets/sandman-logo.png'
+import Sandman from '../assets/SANDMAN1111_w.png'
 import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import MarkEmailUnreadIcon from '@mui/icons-material/MarkEmailUnread';

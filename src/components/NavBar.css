@@ -51,6 +51,7 @@
   align-content: center;
   margin-right: 20%;
   margin-left: 20%;
+  color: white;
 }
 
 .artist-box {
@@ -74,6 +75,11 @@
   /* border: 1px solid black; */
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  color: white;
+
 }
 
 /* Styling for the NavItem component */
