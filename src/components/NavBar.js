@@ -24,7 +24,7 @@ const navTabs = [
   {
     route: "/",
     label: "",
-    image: <img src={Sandman} alt="Sandman Logo" className="artist-logo"/>,
+    image: <img src={Sandman} alt="Sandman Logo" className="artist-logo-nav"/>,
     flag: false,
     },
   {route: "/Shows",
