@@ -56,10 +56,14 @@ const IframeContainer = ({ activeIframe }) => {
   const iframeURLs = {
     spotify: "https://open.spotify.com/embed/artist/2UytYzhVi9dPgPi9FIFGI4?utm_source=generator&theme=0",
     'apple-music': "https://embed.music.apple.com/us/album/nice-guys-finish-last/1642443459",
+                    
     youtube: [
+      "https://www.youtube.com/embed/nCuoVZrY35E",
       "https://www.youtube.com/embed/-VSrkb9anlo",
       "https://www.youtube.com/embed/hynrjn3vgKg",
       "https://www.youtube.com/embed/fvGBOm2P08M",
+      
+
     ],
   };
 

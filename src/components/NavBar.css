@@ -10,7 +10,7 @@
     align-items: center;
     height: min-content;
     width: auto;
-    /* border: 1px solid black; */
+    /*  */
 }
 
 /* Styling for the NavMenu component */
@@ -89,7 +89,6 @@
   align-items: center;
   height: 80px;
   justify-content: center;
-  /* border: 1px solid black; */
 }
 
 
@@ -114,6 +113,90 @@
 
 @media screen and (max-width: 768px) {
   .nav-menu {
-    display: none;
+    /* display: none; */
   }
+}
+
+@media (max-width: 390px) {
+  /* Styling for the NavMenu component */
+  .nav {
+    display: flex;
+    flex: 1;
+    height: min-content;
+    width: auto;
+    
+
+}
+.nav-menu {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.nav-link.active {
+  color: #4d4dff;
+}
+
+/* Styling for the NavLink component */
+.nav-link {
+  color: #ffffff;
+  display: flex;
+  justify-self: space;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
+  
+  margin: 5px;
+}
+
+.nav-icon {
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  margin-right: 20%;
+  margin-left: 20%;
+  color: white;
+}
+
+.artist-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+}
+
+.artist-logo-nav {
+  display: block;
+  width: 100%;
+  max-width: 200px; /*actual image width*/
+  height: auto; /* maintain aspect ratio*/
+  margin: auto; /*optional centering of image*/
+
+}
+
+.nav-label {
+  display: none;
+}
+
+/* Styling for the NavItem component */
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80px;
+  justify-content: center;
+}
+
+
+/* Styling for the Bars (FaBars) component */
+.bars {
+  display: none;
+  color: #808080;
+}
+
 }

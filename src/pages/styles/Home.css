@@ -23,8 +23,6 @@
   color: white;
 }
 
-
-
 .content {
   width: 100%;
   display: flex;
@@ -50,6 +48,20 @@
   align-items: center;
   transform-origin: center;
   animation: rotation 10s infinite linear;
+  /* padding-right: 8%; */
+
+}
+
+.artist-logo-mobile {
+  margin-top: 50%;
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  justify-items: center;
+  align-items: center;
+  transform-origin: center;
+  animation: rotation 8s infinite linear;
   /* padding-right: 8%; */
 
 }
