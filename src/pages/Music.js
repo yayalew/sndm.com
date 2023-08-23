@@ -14,7 +14,7 @@ const Music = () => {
 
   return (
     <div className="music-container">
-      <video src={Concert} autoPlay loop muted />
+      <video src={Concert} muted="true" autoplay="true" preload="auto" loop="true" playsinline="true"  />
       <div className="content">
         <div className="icons">
           

@@ -1,0 +1,30 @@
+/* Styling for the Shows component */
+
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: Tahoma;
+}
+
+.show-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.show-card {
+  background-color: rgba(255,255,255, 0.7);
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: black;
+  font-family: Tahoma;
+}

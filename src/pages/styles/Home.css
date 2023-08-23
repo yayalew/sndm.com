@@ -61,10 +61,20 @@
   justify-items: center;
   align-items: center;
   transform-origin: center;
-  animation: rotation 8s infinite linear;
+  /* animation: rotation-mobile 10s infinite linear; */
   /* padding-right: 8%; */
 
 }
+
+@keyframes rotation-mobile {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 
 @keyframes rotation {
   from {
