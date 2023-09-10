@@ -4,7 +4,8 @@
 h1 {
   font-size: 2em;
   margin-bottom: 20px;
-  font-family: Tahoma;
+  font-family: Arial, monospace;
+  font-weight: normal;
 }
 
 .show-cards {
@@ -26,5 +27,5 @@ h2 {
   font-size: 1.2em;
   text-transform: uppercase;
   color: black;
-  font-family: Tahoma;
+   font-family: Arial, monospace;
 }

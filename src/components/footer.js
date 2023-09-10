@@ -1,9 +1,9 @@
 import React from 'react';
 import './footer.css';
-import youtubeIcon from '../assets/youtube-icon.png';
-import spotifyIcon from '../assets/spotify-icon-green-logo-8.png';
-import appleMusicIcon from '../assets/apple-music-icon.png';
-import instagramIcon from '../assets/instagram.png';
+import youtubeIcon from '../assets/youtube-black-modified.png';
+import spotifyIcon from '../assets/spotify-black-modified.png';
+import appleMusicIcon from '../assets/apple-black-modified.png';
+import instagramIcon from '../assets/insta-black-modified.png';
 
 const isMobile = window.innerWidth <= 768; // Set your desired mobile breakpoint
 

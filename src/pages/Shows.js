@@ -3,7 +3,11 @@ import React from 'react';
 import Concert from '../assets/SANDMAN GOODWILL NOV 13_Trim.mp4';
 import './styles/Shows.css';
 
-const showData = [
+const UpcomingShowData = [
+    'COMING SOON - STAY TUNED!',
+  ];
+
+const PreviousShowData = [
   '11/13/2021 - GOODWILL THEATRE - WINNIPEG, MB',
   '11/20/2021 - THE GARRICK CENTER - WINNIPEG, MB',
   '11/27/2021 - CANADA LIFE PLACE - WINNIPEG, MB',
@@ -16,13 +20,23 @@ const Shows = () => {
     <div className="main">
       <video src={Concert} muted autoPlay preload="auto" loop playsInline />
       <div className="content">
-        <h1>SHOWS</h1>
+        <h1>UPCOMING SHOWS</h1>
         <div className="show-cards">
-          {showData.map((show, index) => (
+          {UpcomingShowData.map((show, index) => (
             <div key={index} className="show-card">
               <h2>{show}</h2>
             </div>
           ))}
+        
+        </div>
+        <h1>PREVIOUS SHOWS</h1>
+        <div className="show-cards">
+          {PreviousShowData.map((show, index) => (
+            <div key={index} className="show-card">
+              <h2>{show}</h2>
+            </div>
+          ))}
+        
         </div>
       </div>
     </div>
