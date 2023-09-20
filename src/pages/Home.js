@@ -13,11 +13,12 @@ const Home = () => {
       <video src={Concert} muted="true" autoplay="true" preload="auto" loop="true" playsinline="true" />
       <div className="content">
         <div className='image-container'>
-          {isMobile ? <img src={Sandman} alt="Sandman Logo" className='artist-logo-mobile' /> : <img src={Sandman} alt="Sandman Logo" className='artist-logo' />}
-        </div>
-
+          <div className='image-wrapper'>
+            {isMobile ? <img src={Sandman} alt="Sandman Logo" className='artist-logo-mobile' /> : <img src={Sandman} alt="Sandman Logo" className='artist-logo' />}
+          </div>
         </div>
       </div>
+    </div>
   );
 };
 

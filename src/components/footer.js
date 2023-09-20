@@ -27,7 +27,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="text">
-        {isMobile ?  <p className='credits'>© 2023 YEAB AYALEW </p>: <p>© 2023 Copyright PROUDLY DEVELOPED BY YEAB AYALEW</p>}
+        {isMobile ?  <p className='credits'>© 2023 YEAB AYALEW </p>: <p>©2023  YEAB AYALEW</p>}
         </div>
       </div>
     </div>
