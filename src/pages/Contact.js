@@ -14,7 +14,7 @@ const Contact = () => {
       <video src={Concert} muted autoPlay preload="auto" loop playsInline />
       <h1 className='banner-text'> MEET THE ARTIST</h1>
       <div className="contact-container">
-        <div className="content-left">
+        <div className="content-left" style={{textAlign: 'center'}}>
 
           <p>
             SANDMAN IS A CANADIAN ALTERNATIVE POP SINGER-SONGWRITER WITH A GENRE

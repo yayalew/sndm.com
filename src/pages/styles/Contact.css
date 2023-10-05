@@ -116,7 +116,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   .image-wrapper {
@@ -139,7 +139,7 @@ img {
     align-items: center;
     /* background-color: rgba(255, 0, 0, 0.8); */
     /* border: #2980b9 2px solid; */
-    width: 50vh; 
+    width: auto; 
     margin-bottom: 20%;
   }
 }
