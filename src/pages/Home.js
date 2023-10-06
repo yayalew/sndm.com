@@ -1,20 +1,27 @@
 
-import React from 'react';
-import Concert from '../assets/SANDMAN GOODWILL NOV 13_Trim.mp4'
-import "../index.css"
+import Sandman from '../assets/sandman-logo.png';
+import Concert from '../assets/SANDRO CLOSE R_Trim.mp4';
+import * as React from 'react';
+import './styles/Home.css'
+import Popup from '../components/popup';
+
+const isMobile = window.innerWidth <= 768; 
 
 const Home = () => {
-    return (
-        <div>
-            <video className='background-video' autoPlay loop muted>
-                <source src={Concert} type="video/mp4" />
-                <div>
-                <h1>Sandmannnnnnnn</h1>
-                </div>
-            </video>
-            
+  return (
+    <div className='main'>
+      <Popup />
+      <video src={Concert} muted="true" autoplay="true" preload="auto" loop="true" playsinline="true" />
+      <div className="content">
+        <div className='image-container'>
+          <div className='image-wrapper'>
+            {isMobile ? <img src={Sandman} alt="Sandman Logo" className='artist-logo-mobile' /> : <img src={Sandman} alt="Sandman Logo" className='artist-logo' />}
+          </div>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
- 
+
+
 export default Home;
