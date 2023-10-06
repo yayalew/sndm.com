@@ -1,5 +1,5 @@
-import React ,{useState }from "react";
-import { Nav, NavLink}  from 'react-router-dom';
+import React from "react";
+import {NavLink}  from 'react-router-dom';
 import "./NavBar.css";
 
 
@@ -9,7 +9,6 @@ import DateRangeIcon from '@mui/icons-material/DateRange';
 import MarkEmailUnreadIcon from '@mui/icons-material/MarkEmailUnread';
 import LocalMallIcon from '@mui/icons-material/LocalMall';
 import HomeIcon from '@mui/icons-material/Home';
-import InfoIcon from '@mui/icons-material/Info';
 
 
 const navTabs = [
