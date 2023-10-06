@@ -1,0 +1,102 @@
+/* Home.css */
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  position: relative; /* Make sure the inner div is positioned */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex: auto; /* Grow to rest of container */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.image-wrapper {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.artist-logo {
+  margin-top: 10%;
+  display: block;
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  justify-items: center;
+  align-items: center;
+  transform-origin: center;
+  animation: rotation 10s infinite linear;
+  /* padding-right: 8%; */
+
+}
+
+.album-image {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-logo-mobile {
+  margin-top: 50%;
+  display: block;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  justify-items: center;
+  align-items: center;
+  transform-origin: center;
+  animation: rotation-mobile 10s infinite linear; 
+  /* padding-right: 8%; */
+}
+
+@keyframes rotation-mobile {
+  from {
+    transform: translate3d(0, 0, 0) rotateY(0deg);
+  }
+  to {
+    transform: translate3d(0, 0, 0) rotateY(360deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: translate3d(0, 0, 0) rotateY(0deg);
+  }
+  to {
+    transform: translate3d(0, 0, 0) rotateY(360deg);
+  }
+}
