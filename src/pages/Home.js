@@ -1,13 +1,20 @@
 
 import Sandman from '../assets/sandman-logo.png';
 import Concert from '../assets/SANDRO CLOSE R_Trim.mp4';
-import * as React from 'react';
+import { useState } from 'react';
 import './styles/Home.css'
 import Popup from '../components/popup';
 
 const isMobile = window.innerWidth <= 768; 
 
+
 const Home = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
   return (
     <div className='main'>
       <Popup />
@@ -15,7 +22,8 @@ const Home = () => {
       <div className="content">
         <div className='image-container'>
           <div className='image-wrapper'>
-            {isMobile ? <img src={Sandman} alt="Sandman Logo" className='artist-logo-mobile' /> : <img src={Sandman} alt="Sandman Logo" className='artist-logo' />}
+            {isMobile ? <img src={Sandman} alt="Sandman Logo" className='artist-logo-mobile' onLoad={handleImageLoad} /> : <img src={Sandman} alt="Sandman Logo" className='artist-logo' onLoad={handleImageLoad} />}
+            {!imageLoaded && <div className="loading-spinner" />}
           </div>
         </div>
       </div>

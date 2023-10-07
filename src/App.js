@@ -1,8 +1,6 @@
 import Navbar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/footer'
-
-
 import Home from './pages/Home.js'
 import About from './pages/About.js'
 import Contact from './pages/Contact.js'
@@ -10,10 +8,6 @@ import Shows from './pages/Shows.js'
 import Music from './pages/Music.js'
 import Merch from  './pages/Merch.js'
 
-
-
-
- 
 function App() {
     return (
     
