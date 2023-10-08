@@ -1,8 +1,6 @@
 import React from "react";
 import {NavLink}  from 'react-router-dom';
 import "./NavBar.css";
-
-
 import Sandman from '../assets/SANDMAN1111_w.png'
 import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
 import DateRangeIcon from '@mui/icons-material/DateRange';

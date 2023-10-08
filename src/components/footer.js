@@ -7,7 +7,6 @@ import instagramIcon from '../assets/insta-black-modified.png';
 
 const isMobile = window.innerWidth <= 768; // Set your desired mobile breakpoint
 
-
 export default function Footer() {
   return (
     <div className="footer">
