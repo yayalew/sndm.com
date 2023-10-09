@@ -5,8 +5,7 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import '../pages/styles/Home.css';
 import Go from '../assets/go-image.jpg';
-import './streaming.css';
-
+import '../pages/styles/streaming.css'
 const isMobile = window.innerWidth <= 768;
 
 const style = {

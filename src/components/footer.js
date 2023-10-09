@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import '../pages/styles/footer.css'
 import youtubeIcon from '../assets/youtube-black-modified.png';
 import spotifyIcon from '../assets/spotify-black-modified.png';
 import appleMusicIcon from '../assets/apple-black-modified.png';

@@ -12,11 +12,12 @@
 }
 
 .home-content {
-  position: relative; /* Make sure the inner div is positioned */
-  width: 100%;
-  height: auto;
+  position: relative;
+  width: 80%; /* Adjust the width to your preference */
+  max-width: 600px; /* Set a maximum width if needed */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add padding as needed */
   display: flex;
-  flex: auto; /* Grow to rest of container */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -36,28 +37,21 @@
   position: relative;
   z-index: 0;
   width: 100%;
-  height: 500px;
+  height: 100%;
   overflow: hidden;
+  animation: rotation-mobile 10s infinite linear; 
 }
 
 .artist-logo {
   margin-top: 10%;
   display: block;
-  width: 70%;
-  height: 70%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   justify-items: center;
   align-items: center;
   transform-origin: center;
-  animation: rotation 10s infinite linear;
-}
-
-.album-image {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* animation: rotation 10s infinite linear; */
 }
 
 .album-image {
@@ -69,16 +63,23 @@
 }
 
 .artist-logo-mobile {
-  margin-top: 50%;
   display: block;
-  width: 80%;
-  height: 80%;
-  object-fit: contain;
-  justify-items: center;
-  align-items: center;
+  width: 80%; /* Adjust the width as needed */
+  margin-top: 30%; 
+  height: auto; /* Allow height to adjust accordingly */
   transform-origin: center;
-  animation: rotation-mobile 10s infinite linear; 
 }
+
+
+/* For smaller screens, adjust dimensions and object-fit */
+@media (max-width: 768px) {
+  .artist-logo-mobile {
+    width: 90%; /* Adjust width for smaller screens */
+    height: auto; /* Allow height to adjust accordingly */
+    margin-top: 30%; /* Adjust margin-top for positioning */
+  }
+}
+
 
 @keyframes rotation-mobile {
   from {
