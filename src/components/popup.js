@@ -32,10 +32,21 @@ const Popup = ({ onPress, showStreamingModal, onClose }) => {
   };
 
   const handleStreamNowClick = () => {
-    setOpen(false); // Close the current modal
-    onPress(); // Open the streaming modal
+    // Close the current modal
+    setOpen(false);
+    // Open the streaming modal
+    onPress();
+    
+    // Track the event using Google Analytics
+    if (window.ga) {
+      window.ga('send', {
+        hitType: 'event',
+        eventCategory: 'Button',
+        eventAction: 'Stream Now Click',
+        eventLabel: 'Stream Now Button Clicked',
+      });
+    }
   };
-
   return (
     <div>
       <Modal
