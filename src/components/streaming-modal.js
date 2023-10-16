@@ -41,9 +41,6 @@ const StreamingModal = ({ onClose }) => {
         <div className="album-image-streaming">
           <img src={Go} alt="album cover" style={{ width: '40%', height: '40%', borderRadius: "10px" }} />
         </div>
-        {/* <Typography align='center' variant='h4' style={{fontWeight: 'bold'}}>
-          GO!
-        </Typography> */}
         <Button onClick={handleClose} color="secondary" style={{ position: 'absolute', fontWeight: "bold", top: 0, right: 0, fontSize: '24px', padding: '10px' }}>X</Button>
         <Button variant="contained" color="secondary" href="https://open.spotify.com/track/5cbTDB6eZXA696OQeFQHCv?si=7d051413ba024faa" target="_blank" rel="noopener noreferrer" size="large" style={{ display: 'block', margin: 'auto', marginTop: '5%', padding: '3%',fontWeight: "bold", textAlign: 'center', borderRadius: "50px" }}>
           Spotify
@@ -51,7 +48,7 @@ const StreamingModal = ({ onClose }) => {
         <Button variant="contained" color="secondary" href="https://music.apple.com/us/album/go-single/1708522350" target="_blank" rel="noopener noreferrer" size="large" style={{ display: 'block', margin: 'auto', marginTop: '5%', padding: '3%',fontWeight: "bold", textAlign: 'center', borderRadius: "50px" }}>
           Apple Music
         </Button>
-        <Button variant="contained" color="secondary" href="https://www.youtube.com/watch?v=wBjHe_UYK5s&ab_channel=Sandman-Topic" target="_blank" rel="noopener noreferrer" size="large" style={{ display: 'block', margin: 'auto', marginTop: '5%', padding: '3%',fontWeight: "bold", textAlign: 'center', borderRadius: "50px" }}>
+        <Button variant="contained" color="secondary" href="https://youtu.be/qZ69kRUe9BU?si=PVrLHplfae9s7vpz" target="_blank" rel="noopener noreferrer" size="large" style={{ display: 'block', margin: 'auto', marginTop: '5%', padding: '3%',fontWeight: "bold", textAlign: 'center', borderRadius: "50px" }}>
           Youtube
         </Button>
       </Box>

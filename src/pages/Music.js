@@ -58,6 +58,7 @@ const IframeContainer = ({ activeIframe }) => {
     'apple-music': "https://embed.music.apple.com/us/album/nice-guys-finish-last/1642443459",
                     
     youtube: [
+      "https://www.youtube.com/embed/qZ69kRUe9BU?si=riT4ZiRJj60pYgDP",
       "https://www.youtube.com/embed/nCuoVZrY35E",
       "https://www.youtube.com/embed/-VSrkb9anlo",
       "https://www.youtube.com/embed/hynrjn3vgKg",
