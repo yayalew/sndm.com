@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import StreamingModal from './streaming-modal.js'; // Assuming you have a component for the streaming modal
 import '../pages/styles/Home.css';
-import Go from '../assets/go-image.jpg';
+import bite_the_bullet from '../assets/bite_the_bullet_img.png';
 
 const isMobile = window.innerWidth <= 768; // Set your desired mobile breakpoint
 
@@ -60,7 +60,7 @@ const Popup = ({ onPress, showStreamingModal, onClose }) => {
             NEW SINGLE OUT NOW
           </Typography>
           <div className="album-image">
-            <img src={Go} alt="album cover" style={{ width: '60%', height: 'auto', borderRadius: "10px" }} />
+            <img src={bite_the_bullet} alt="album cover" style={{ width: '60%', height: 'auto', borderRadius: "10px" }} />
           </div>
           <Button onClick={handleClose} style={{ position: 'absolute', top: 0, right: 0, fontWeight: "bold", fontSize: '24px', padding: '10px' }}>X</Button>
           <Button variant="contained" color="primary"  onClick={handleStreamNowClick} style={{ display: 'block', margin: 'auto', marginTop: '20px', fontWeight: "bold", padding: '20px', textAlign: 'center', borderRadius: "50px" }}>
